@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React,{useReducer} from 'react'
 
 export default function Counter() {
     const [count, setCount] = useState<number>(0);
